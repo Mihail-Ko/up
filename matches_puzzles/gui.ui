@@ -1,0 +1,3746 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1063</width>
+    <height>577</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(12, 103, 45)</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <property name="spacing">
+     <number>10</number>
+    </property>
+    <item row="0" column="0">
+     <widget class="QStackedWidget" name="stackedWidget">
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="page_game">
+       <layout class="QGridLayout" name="gridLayout_2">
+        <property name="leftMargin">
+         <number>10</number>
+        </property>
+        <property name="topMargin">
+         <number>10</number>
+        </property>
+        <property name="rightMargin">
+         <number>10</number>
+        </property>
+        <property name="bottomMargin">
+         <number>10</number>
+        </property>
+        <property name="spacing">
+         <number>10</number>
+        </property>
+        <item row="0" column="0">
+         <widget class="QWidget" name="widget" native="true">
+          <widget class="QWidget" name="n1" native="true">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>100</y>
+             <width>131</width>
+             <height>271</height>
+            </rect>
+           </property>
+           <widget class="QLabel" name="v11">
+            <property name="geometry">
+             <rect>
+              <x>5</x>
+              <y>30</y>
+              <width>12</width>
+              <height>85</height>
+             </rect>
+            </property>
+            <property name="autoFillBackground">
+             <bool>false</bool>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>match.svg</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="pushButton_h13">
+            <property name="geometry">
+             <rect>
+              <x>25</x>
+              <y>240</y>
+              <width>80</width>
+              <height>25</height>
+             </rect>
+            </property>
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QAbstractButton {
+                    background: rgba(200,0,0,1);
+}</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="pushButton_v11">
+            <property name="geometry">
+             <rect>
+              <x>0</x>
+              <y>25</y>
+              <width>25</width>
+              <height>95</height>
+             </rect>
+            </property>
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QAbstractButton {
+                    background: rgba(200,0,0,1);
+}</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="pushButton_v21">
+            <property name="geometry">
+             <rect>
+              <x>105</x>
+              <y>25</y>
+              <width>25</width>
+              <height>95</height>
+             </rect>
+            </property>
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QAbstractButton {
+                    background: rgba(200,0,0,1);
+}</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <widget class="QLabel" name="label_h13">
+            <property name="geometry">
+             <rect>
+              <x>25</x>
+              <y>240</y>
+              <width>80</width>
+              <height>25</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color:rgb(200, 0, 0);</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <widget class="QLabel" name="label_v11">
+            <property name="geometry">
+             <rect>
+              <x>0</x>
+              <y>25</y>
+              <width>25</width>
+              <height>95</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color:rgb(200, 0, 0);</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <widget class="QLabel" name="label_h11">
+            <property name="geometry">
+             <rect>
+              <x>25</x>
+              <y>0</y>
+              <width>80</width>
+              <height>25</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color:rgb(200, 0, 0);</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <widget class="QLabel" name="v21">
+            <property name="geometry">
+             <rect>
+              <x>110</x>
+              <y>30</y>
+              <width>12</width>
+              <height>85</height>
+             </rect>
+            </property>
+            <property name="autoFillBackground">
+             <bool>false</bool>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>match.svg</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+           <widget class="QLabel" name="h13">
+            <property name="geometry">
+             <rect>
+              <x>30</x>
+              <y>245</y>
+              <width>70</width>
+              <height>12</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>match2.svg</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+           <widget class="QLabel" name="label_h12">
+            <property name="geometry">
+             <rect>
+              <x>25</x>
+              <y>120</y>
+              <width>80</width>
+              <height>25</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color:rgb(200, 0, 0);</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="pushButton_h11">
+            <property name="geometry">
+             <rect>
+              <x>25</x>
+              <y>0</y>
+              <width>80</width>
+              <height>25</height>
+             </rect>
+            </property>
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QAbstractButton {
+                    background: rgba(200,0,0,1);
+}</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <widget class="QLabel" name="h11">
+            <property name="geometry">
+             <rect>
+              <x>30</x>
+              <y>5</y>
+              <width>70</width>
+              <height>12</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>match2.svg</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+           <widget class="QLabel" name="h12">
+            <property name="geometry">
+             <rect>
+              <x>30</x>
+              <y>125</y>
+              <width>70</width>
+              <height>12</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>match2.svg</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="pushButton_h12">
+            <property name="geometry">
+             <rect>
+              <x>25</x>
+              <y>120</y>
+              <width>80</width>
+              <height>25</height>
+             </rect>
+            </property>
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QAbstractButton {
+                    background: rgba(200,0,0,1);
+}</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <widget class="QLabel" name="label_v21">
+            <property name="geometry">
+             <rect>
+              <x>105</x>
+              <y>25</y>
+              <width>25</width>
+              <height>95</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color:rgb(200, 0, 0);</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="pushButton_v12">
+            <property name="geometry">
+             <rect>
+              <x>0</x>
+              <y>145</y>
+              <width>25</width>
+              <height>95</height>
+             </rect>
+            </property>
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QAbstractButton {
+                    background: rgba(200,0,0,1);
+}</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <widget class="QLabel" name="label_v12">
+            <property name="geometry">
+             <rect>
+              <x>0</x>
+              <y>145</y>
+              <width>25</width>
+              <height>95</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color:rgb(200, 0, 0);</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <widget class="QLabel" name="v12">
+            <property name="geometry">
+             <rect>
+              <x>5</x>
+              <y>150</y>
+              <width>12</width>
+              <height>85</height>
+             </rect>
+            </property>
+            <property name="autoFillBackground">
+             <bool>false</bool>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>match.svg</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="pushButton_v22">
+            <property name="geometry">
+             <rect>
+              <x>105</x>
+              <y>145</y>
+              <width>25</width>
+              <height>95</height>
+             </rect>
+            </property>
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QAbstractButton {
+                    background: rgba(200,0,0,1);
+}</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <widget class="QLabel" name="label_v22">
+            <property name="geometry">
+             <rect>
+              <x>105</x>
+              <y>145</y>
+              <width>25</width>
+              <height>95</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color:rgb(200, 0, 0);</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <widget class="QLabel" name="v22">
+            <property name="geometry">
+             <rect>
+              <x>110</x>
+              <y>150</y>
+              <width>12</width>
+              <height>85</height>
+             </rect>
+            </property>
+            <property name="autoFillBackground">
+             <bool>false</bool>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>match.svg</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+           <zorder>label_v22</zorder>
+           <zorder>label_v12</zorder>
+           <zorder>label_h13</zorder>
+           <zorder>label_v21</zorder>
+           <zorder>label_v11</zorder>
+           <zorder>pushButton_v11</zorder>
+           <zorder>v11</zorder>
+           <zorder>pushButton_h13</zorder>
+           <zorder>pushButton_v21</zorder>
+           <zorder>label_h11</zorder>
+           <zorder>v21</zorder>
+           <zorder>label_h12</zorder>
+           <zorder>pushButton_h11</zorder>
+           <zorder>h11</zorder>
+           <zorder>pushButton_h12</zorder>
+           <zorder>h12</zorder>
+           <zorder>pushButton_v12</zorder>
+           <zorder>v12</zorder>
+           <zorder>h13</zorder>
+           <zorder>pushButton_v22</zorder>
+           <zorder>v22</zorder>
+          </widget>
+          <widget class="QWidget" name="n2" native="true">
+           <property name="geometry">
+            <rect>
+             <x>150</x>
+             <y>100</y>
+             <width>131</width>
+             <height>271</height>
+            </rect>
+           </property>
+           <widget class="QLabel" name="v31">
+            <property name="geometry">
+             <rect>
+              <x>5</x>
+              <y>30</y>
+              <width>12</width>
+              <height>85</height>
+             </rect>
+            </property>
+            <property name="autoFillBackground">
+             <bool>false</bool>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>match.svg</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="pushButton_h23">
+            <property name="geometry">
+             <rect>
+              <x>25</x>
+              <y>240</y>
+              <width>80</width>
+              <height>25</height>
+             </rect>
+            </property>
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QAbstractButton {
+                    background: rgba(200,0,0,1);
+}</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="pushButton_v31">
+            <property name="geometry">
+             <rect>
+              <x>0</x>
+              <y>25</y>
+              <width>25</width>
+              <height>95</height>
+             </rect>
+            </property>
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QAbstractButton {
+                    background: rgba(200,0,0,1);
+}</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="pushButton_v41">
+            <property name="geometry">
+             <rect>
+              <x>105</x>
+              <y>25</y>
+              <width>25</width>
+              <height>95</height>
+             </rect>
+            </property>
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QAbstractButton {
+                    background: rgba(200,0,0,1);
+}</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <widget class="QLabel" name="label_h23">
+            <property name="geometry">
+             <rect>
+              <x>25</x>
+              <y>240</y>
+              <width>80</width>
+              <height>25</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color:rgb(200, 0, 0);</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <widget class="QLabel" name="label_v31">
+            <property name="geometry">
+             <rect>
+              <x>0</x>
+              <y>25</y>
+              <width>25</width>
+              <height>95</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color:rgb(200, 0, 0);</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <widget class="QLabel" name="label_h21">
+            <property name="geometry">
+             <rect>
+              <x>25</x>
+              <y>0</y>
+              <width>80</width>
+              <height>25</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color:rgb(200, 0, 0);</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <widget class="QLabel" name="v41">
+            <property name="geometry">
+             <rect>
+              <x>110</x>
+              <y>30</y>
+              <width>12</width>
+              <height>85</height>
+             </rect>
+            </property>
+            <property name="autoFillBackground">
+             <bool>false</bool>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>match.svg</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+           <widget class="QLabel" name="h23">
+            <property name="geometry">
+             <rect>
+              <x>30</x>
+              <y>245</y>
+              <width>70</width>
+              <height>12</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>match2.svg</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+           <widget class="QLabel" name="label_h22">
+            <property name="geometry">
+             <rect>
+              <x>25</x>
+              <y>120</y>
+              <width>80</width>
+              <height>25</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color:rgb(200, 0, 0);</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="pushButton_h21">
+            <property name="geometry">
+             <rect>
+              <x>25</x>
+              <y>0</y>
+              <width>80</width>
+              <height>25</height>
+             </rect>
+            </property>
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QAbstractButton {
+                    background: rgba(200,0,0,1);
+}</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <widget class="QLabel" name="h21">
+            <property name="geometry">
+             <rect>
+              <x>30</x>
+              <y>5</y>
+              <width>70</width>
+              <height>12</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>match2.svg</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+           <widget class="QLabel" name="h22">
+            <property name="geometry">
+             <rect>
+              <x>30</x>
+              <y>125</y>
+              <width>70</width>
+              <height>12</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>match2.svg</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="pushButton_h22">
+            <property name="geometry">
+             <rect>
+              <x>25</x>
+              <y>120</y>
+              <width>80</width>
+              <height>25</height>
+             </rect>
+            </property>
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QAbstractButton {
+                    background: rgba(200,0,0,1);
+}</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <widget class="QLabel" name="label_v41">
+            <property name="geometry">
+             <rect>
+              <x>105</x>
+              <y>25</y>
+              <width>25</width>
+              <height>95</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color:rgb(200, 0, 0);</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="pushButton_v32">
+            <property name="geometry">
+             <rect>
+              <x>0</x>
+              <y>145</y>
+              <width>25</width>
+              <height>95</height>
+             </rect>
+            </property>
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QAbstractButton {
+                    background: rgba(200,0,0,1);
+}</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <widget class="QLabel" name="label_v32">
+            <property name="geometry">
+             <rect>
+              <x>0</x>
+              <y>145</y>
+              <width>25</width>
+              <height>95</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color:rgb(200, 0, 0);</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <widget class="QLabel" name="v32">
+            <property name="geometry">
+             <rect>
+              <x>5</x>
+              <y>150</y>
+              <width>12</width>
+              <height>85</height>
+             </rect>
+            </property>
+            <property name="autoFillBackground">
+             <bool>false</bool>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>match.svg</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="pushButton_v42">
+            <property name="geometry">
+             <rect>
+              <x>105</x>
+              <y>145</y>
+              <width>25</width>
+              <height>95</height>
+             </rect>
+            </property>
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QAbstractButton {
+                    background: rgba(200,0,0,1);
+}</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <widget class="QLabel" name="label_v42">
+            <property name="geometry">
+             <rect>
+              <x>105</x>
+              <y>145</y>
+              <width>25</width>
+              <height>95</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color:rgb(200, 0, 0);</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <widget class="QLabel" name="v42">
+            <property name="geometry">
+             <rect>
+              <x>110</x>
+              <y>150</y>
+              <width>12</width>
+              <height>85</height>
+             </rect>
+            </property>
+            <property name="autoFillBackground">
+             <bool>false</bool>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>match.svg</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+           <zorder>label_h23</zorder>
+           <zorder>label_v32</zorder>
+           <zorder>label_v41</zorder>
+           <zorder>pushButton_v32</zorder>
+           <zorder>pushButton_v41</zorder>
+           <zorder>label_v42</zorder>
+           <zorder>pushButton_v42</zorder>
+           <zorder>label_v31</zorder>
+           <zorder>pushButton_h23</zorder>
+           <zorder>pushButton_v31</zorder>
+           <zorder>label_h21</zorder>
+           <zorder>h23</zorder>
+           <zorder>label_h22</zorder>
+           <zorder>pushButton_h21</zorder>
+           <zorder>h21</zorder>
+           <zorder>pushButton_h22</zorder>
+           <zorder>v32</zorder>
+           <zorder>v42</zorder>
+           <zorder>h22</zorder>
+           <zorder>v41</zorder>
+           <zorder>v31</zorder>
+          </widget>
+          <widget class="QLabel" name="minus">
+           <property name="geometry">
+            <rect>
+             <x>295</x>
+             <y>225</y>
+             <width>70</width>
+             <height>12</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>match2.svg</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+          </widget>
+          <widget class="QLabel" name="plus">
+           <property name="geometry">
+            <rect>
+             <x>320</x>
+             <y>195</y>
+             <width>12</width>
+             <height>70</height>
+            </rect>
+           </property>
+           <property name="autoFillBackground">
+            <bool>false</bool>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>match.svg</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="pushButton_plus">
+           <property name="geometry">
+            <rect>
+             <x>315</x>
+             <y>190</y>
+             <width>25</width>
+             <height>80</height>
+            </rect>
+           </property>
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>0</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QAbstractButton {
+                    background: rgba(200,0,0,1);
+}</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_plus">
+           <property name="geometry">
+            <rect>
+             <x>315</x>
+             <y>190</y>
+             <width>25</width>
+             <height>80</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color:rgb(200, 0, 0);</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+          <widget class="QWidget" name="n4" native="true">
+           <property name="geometry">
+            <rect>
+             <x>510</x>
+             <y>100</y>
+             <width>131</width>
+             <height>271</height>
+            </rect>
+           </property>
+           <widget class="QLabel" name="v71">
+            <property name="geometry">
+             <rect>
+              <x>5</x>
+              <y>30</y>
+              <width>12</width>
+              <height>85</height>
+             </rect>
+            </property>
+            <property name="autoFillBackground">
+             <bool>false</bool>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>match.svg</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="pushButton_h43">
+            <property name="geometry">
+             <rect>
+              <x>25</x>
+              <y>240</y>
+              <width>80</width>
+              <height>25</height>
+             </rect>
+            </property>
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QAbstractButton {
+                    background: rgba(200,0,0,1);
+}</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="pushButton_v71">
+            <property name="geometry">
+             <rect>
+              <x>0</x>
+              <y>25</y>
+              <width>25</width>
+              <height>95</height>
+             </rect>
+            </property>
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QAbstractButton {
+                    background: rgba(200,0,0,1);
+}</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="pushButton_v81">
+            <property name="geometry">
+             <rect>
+              <x>105</x>
+              <y>25</y>
+              <width>25</width>
+              <height>95</height>
+             </rect>
+            </property>
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QAbstractButton {
+                    background: rgba(200,0,0,1);
+}</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <widget class="QLabel" name="label_h43">
+            <property name="geometry">
+             <rect>
+              <x>25</x>
+              <y>240</y>
+              <width>80</width>
+              <height>25</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color:rgb(200, 0, 0);</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <widget class="QLabel" name="label_v71">
+            <property name="geometry">
+             <rect>
+              <x>0</x>
+              <y>25</y>
+              <width>25</width>
+              <height>95</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color:rgb(200, 0, 0);</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <widget class="QLabel" name="label_h41">
+            <property name="geometry">
+             <rect>
+              <x>25</x>
+              <y>0</y>
+              <width>80</width>
+              <height>25</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color:rgb(200, 0, 0);</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <widget class="QLabel" name="v81">
+            <property name="geometry">
+             <rect>
+              <x>110</x>
+              <y>30</y>
+              <width>12</width>
+              <height>85</height>
+             </rect>
+            </property>
+            <property name="autoFillBackground">
+             <bool>false</bool>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>match.svg</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+           <widget class="QLabel" name="h43">
+            <property name="geometry">
+             <rect>
+              <x>30</x>
+              <y>245</y>
+              <width>70</width>
+              <height>12</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>match2.svg</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+           <widget class="QLabel" name="label_h42">
+            <property name="geometry">
+             <rect>
+              <x>25</x>
+              <y>120</y>
+              <width>80</width>
+              <height>25</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color:rgb(200, 0, 0);</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="pushButton_h41">
+            <property name="geometry">
+             <rect>
+              <x>25</x>
+              <y>0</y>
+              <width>80</width>
+              <height>25</height>
+             </rect>
+            </property>
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QAbstractButton {
+                    background: rgba(200,0,0,1);
+}</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <widget class="QLabel" name="h41">
+            <property name="geometry">
+             <rect>
+              <x>30</x>
+              <y>5</y>
+              <width>70</width>
+              <height>12</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>match2.svg</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+           <widget class="QLabel" name="h42">
+            <property name="geometry">
+             <rect>
+              <x>30</x>
+              <y>125</y>
+              <width>70</width>
+              <height>12</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>match2.svg</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="pushButton_h42">
+            <property name="geometry">
+             <rect>
+              <x>25</x>
+              <y>120</y>
+              <width>80</width>
+              <height>25</height>
+             </rect>
+            </property>
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QAbstractButton {
+                    background: rgba(200,0,0,1);
+}</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <widget class="QLabel" name="label_v81">
+            <property name="geometry">
+             <rect>
+              <x>105</x>
+              <y>25</y>
+              <width>25</width>
+              <height>95</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color:rgb(200, 0, 0);</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="pushButton_v72">
+            <property name="geometry">
+             <rect>
+              <x>0</x>
+              <y>145</y>
+              <width>25</width>
+              <height>95</height>
+             </rect>
+            </property>
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QAbstractButton {
+                    background: rgba(200,0,0,1);
+}</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <widget class="QLabel" name="label_v72">
+            <property name="geometry">
+             <rect>
+              <x>0</x>
+              <y>145</y>
+              <width>25</width>
+              <height>95</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color:rgb(200, 0, 0);</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <widget class="QLabel" name="v72">
+            <property name="geometry">
+             <rect>
+              <x>5</x>
+              <y>150</y>
+              <width>12</width>
+              <height>85</height>
+             </rect>
+            </property>
+            <property name="autoFillBackground">
+             <bool>false</bool>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>match.svg</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="pushButton_v82">
+            <property name="geometry">
+             <rect>
+              <x>105</x>
+              <y>145</y>
+              <width>25</width>
+              <height>95</height>
+             </rect>
+            </property>
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QAbstractButton {
+                    background: rgba(200,0,0,1);
+}</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <widget class="QLabel" name="label_v82">
+            <property name="geometry">
+             <rect>
+              <x>105</x>
+              <y>145</y>
+              <width>25</width>
+              <height>95</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color:rgb(200, 0, 0);</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <widget class="QLabel" name="v82">
+            <property name="geometry">
+             <rect>
+              <x>110</x>
+              <y>150</y>
+              <width>12</width>
+              <height>85</height>
+             </rect>
+            </property>
+            <property name="autoFillBackground">
+             <bool>false</bool>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>match.svg</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+           <zorder>label_v82</zorder>
+           <zorder>label_v72</zorder>
+           <zorder>pushButton_v72</zorder>
+           <zorder>label_v81</zorder>
+           <zorder>label_v71</zorder>
+           <zorder>label_h43</zorder>
+           <zorder>pushButton_h43</zorder>
+           <zorder>pushButton_v71</zorder>
+           <zorder>pushButton_v81</zorder>
+           <zorder>label_h41</zorder>
+           <zorder>v81</zorder>
+           <zorder>h43</zorder>
+           <zorder>label_h42</zorder>
+           <zorder>pushButton_h41</zorder>
+           <zorder>h41</zorder>
+           <zorder>pushButton_h42</zorder>
+           <zorder>v72</zorder>
+           <zorder>pushButton_v82</zorder>
+           <zorder>v82</zorder>
+           <zorder>h42</zorder>
+           <zorder>v71</zorder>
+          </widget>
+          <widget class="QWidget" name="n3" native="true">
+           <property name="geometry">
+            <rect>
+             <x>370</x>
+             <y>100</y>
+             <width>131</width>
+             <height>271</height>
+            </rect>
+           </property>
+           <widget class="QLabel" name="v51">
+            <property name="geometry">
+             <rect>
+              <x>5</x>
+              <y>30</y>
+              <width>12</width>
+              <height>85</height>
+             </rect>
+            </property>
+            <property name="autoFillBackground">
+             <bool>false</bool>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>match.svg</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="pushButton_h33">
+            <property name="geometry">
+             <rect>
+              <x>25</x>
+              <y>240</y>
+              <width>80</width>
+              <height>25</height>
+             </rect>
+            </property>
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QAbstractButton {
+                    background: rgba(200,0,0,1);
+}</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="pushButton_v51">
+            <property name="geometry">
+             <rect>
+              <x>0</x>
+              <y>25</y>
+              <width>25</width>
+              <height>95</height>
+             </rect>
+            </property>
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QAbstractButton {
+                    background: rgba(200,0,0,1);
+}</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="pushButton_v61">
+            <property name="geometry">
+             <rect>
+              <x>105</x>
+              <y>25</y>
+              <width>25</width>
+              <height>95</height>
+             </rect>
+            </property>
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QAbstractButton {
+                    background: rgba(200,0,0,1);
+}</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <widget class="QLabel" name="label_h33">
+            <property name="geometry">
+             <rect>
+              <x>25</x>
+              <y>240</y>
+              <width>80</width>
+              <height>25</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color:rgb(200, 0, 0);</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <widget class="QLabel" name="label_v51">
+            <property name="geometry">
+             <rect>
+              <x>0</x>
+              <y>25</y>
+              <width>25</width>
+              <height>95</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color:rgb(200, 0, 0);</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <widget class="QLabel" name="label_h31">
+            <property name="geometry">
+             <rect>
+              <x>25</x>
+              <y>0</y>
+              <width>80</width>
+              <height>25</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color:rgb(200, 0, 0);</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <widget class="QLabel" name="v61">
+            <property name="geometry">
+             <rect>
+              <x>110</x>
+              <y>30</y>
+              <width>12</width>
+              <height>85</height>
+             </rect>
+            </property>
+            <property name="autoFillBackground">
+             <bool>false</bool>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>match.svg</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+           <widget class="QLabel" name="h33">
+            <property name="geometry">
+             <rect>
+              <x>30</x>
+              <y>245</y>
+              <width>70</width>
+              <height>12</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>match2.svg</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+           <widget class="QLabel" name="label_h32">
+            <property name="geometry">
+             <rect>
+              <x>25</x>
+              <y>120</y>
+              <width>80</width>
+              <height>25</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color:rgb(200, 0, 0);</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="pushButton_h31">
+            <property name="geometry">
+             <rect>
+              <x>25</x>
+              <y>0</y>
+              <width>80</width>
+              <height>25</height>
+             </rect>
+            </property>
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QAbstractButton {
+                    background: rgba(200,0,0,1);
+}</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <widget class="QLabel" name="h31">
+            <property name="geometry">
+             <rect>
+              <x>30</x>
+              <y>5</y>
+              <width>70</width>
+              <height>12</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>match2.svg</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+           <widget class="QLabel" name="h32">
+            <property name="geometry">
+             <rect>
+              <x>30</x>
+              <y>125</y>
+              <width>70</width>
+              <height>12</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>match2.svg</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="pushButton_h32">
+            <property name="geometry">
+             <rect>
+              <x>25</x>
+              <y>120</y>
+              <width>80</width>
+              <height>25</height>
+             </rect>
+            </property>
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QAbstractButton {
+                    background: rgba(200,0,0,1);
+}</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <widget class="QLabel" name="label_v61">
+            <property name="geometry">
+             <rect>
+              <x>105</x>
+              <y>25</y>
+              <width>25</width>
+              <height>95</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color:rgb(200, 0, 0);</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="pushButton_v52">
+            <property name="geometry">
+             <rect>
+              <x>0</x>
+              <y>145</y>
+              <width>25</width>
+              <height>95</height>
+             </rect>
+            </property>
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QAbstractButton {
+                    background: rgba(200,0,0,1);
+}</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <widget class="QLabel" name="label_v52">
+            <property name="geometry">
+             <rect>
+              <x>0</x>
+              <y>145</y>
+              <width>25</width>
+              <height>95</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color:rgb(200, 0, 0);</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <widget class="QLabel" name="v52">
+            <property name="geometry">
+             <rect>
+              <x>5</x>
+              <y>150</y>
+              <width>12</width>
+              <height>85</height>
+             </rect>
+            </property>
+            <property name="autoFillBackground">
+             <bool>false</bool>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>match.svg</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="pushButton_v62">
+            <property name="geometry">
+             <rect>
+              <x>105</x>
+              <y>145</y>
+              <width>25</width>
+              <height>95</height>
+             </rect>
+            </property>
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QAbstractButton {
+                    background: rgba(200,0,0,1);
+}</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <widget class="QLabel" name="label_v62">
+            <property name="geometry">
+             <rect>
+              <x>105</x>
+              <y>145</y>
+              <width>25</width>
+              <height>95</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color:rgb(200, 0, 0);</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <widget class="QLabel" name="v62">
+            <property name="geometry">
+             <rect>
+              <x>110</x>
+              <y>150</y>
+              <width>12</width>
+              <height>85</height>
+             </rect>
+            </property>
+            <property name="autoFillBackground">
+             <bool>false</bool>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>match.svg</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+           <zorder>label_v62</zorder>
+           <zorder>label_v61</zorder>
+           <zorder>label_v52</zorder>
+           <zorder>label_v51</zorder>
+           <zorder>label_h33</zorder>
+           <zorder>pushButton_h33</zorder>
+           <zorder>pushButton_v51</zorder>
+           <zorder>pushButton_v61</zorder>
+           <zorder>label_h31</zorder>
+           <zorder>v61</zorder>
+           <zorder>h33</zorder>
+           <zorder>label_h32</zorder>
+           <zorder>pushButton_h31</zorder>
+           <zorder>h31</zorder>
+           <zorder>pushButton_h32</zorder>
+           <zorder>pushButton_v52</zorder>
+           <zorder>v52</zorder>
+           <zorder>pushButton_v62</zorder>
+           <zorder>v62</zorder>
+           <zorder>h32</zorder>
+           <zorder>v51</zorder>
+          </widget>
+          <widget class="QLabel" name="eq1">
+           <property name="geometry">
+            <rect>
+             <x>655</x>
+             <y>210</y>
+             <width>65</width>
+             <height>12</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>match2.svg</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+          </widget>
+          <widget class="QLabel" name="eq2">
+           <property name="geometry">
+            <rect>
+             <x>655</x>
+             <y>250</y>
+             <width>65</width>
+             <height>12</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap>match2.svg</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+          </widget>
+          <widget class="QWidget" name="n5" native="true">
+           <property name="geometry">
+            <rect>
+             <x>735</x>
+             <y>100</y>
+             <width>131</width>
+             <height>271</height>
+            </rect>
+           </property>
+           <widget class="QLabel" name="v91">
+            <property name="geometry">
+             <rect>
+              <x>5</x>
+              <y>30</y>
+              <width>12</width>
+              <height>85</height>
+             </rect>
+            </property>
+            <property name="autoFillBackground">
+             <bool>false</bool>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>match.svg</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="pushButton_h53">
+            <property name="geometry">
+             <rect>
+              <x>25</x>
+              <y>240</y>
+              <width>80</width>
+              <height>25</height>
+             </rect>
+            </property>
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QAbstractButton {
+                    background: rgba(200,0,0,1);
+}</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="pushButton_v91">
+            <property name="geometry">
+             <rect>
+              <x>0</x>
+              <y>25</y>
+              <width>25</width>
+              <height>95</height>
+             </rect>
+            </property>
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QAbstractButton {
+                    background: rgba(200,0,0,1);
+}</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="pushButton_v101">
+            <property name="geometry">
+             <rect>
+              <x>105</x>
+              <y>25</y>
+              <width>25</width>
+              <height>95</height>
+             </rect>
+            </property>
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QAbstractButton {
+                    background: rgba(200,0,0,1);
+}</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <widget class="QLabel" name="label_h53">
+            <property name="geometry">
+             <rect>
+              <x>25</x>
+              <y>240</y>
+              <width>80</width>
+              <height>25</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color:rgb(200, 0, 0);</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <widget class="QLabel" name="label_v91">
+            <property name="geometry">
+             <rect>
+              <x>0</x>
+              <y>25</y>
+              <width>25</width>
+              <height>95</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color:rgb(200, 0, 0);</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <widget class="QLabel" name="label_h51">
+            <property name="geometry">
+             <rect>
+              <x>25</x>
+              <y>0</y>
+              <width>80</width>
+              <height>25</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color:rgb(200, 0, 0);</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <widget class="QLabel" name="v101">
+            <property name="geometry">
+             <rect>
+              <x>110</x>
+              <y>30</y>
+              <width>12</width>
+              <height>85</height>
+             </rect>
+            </property>
+            <property name="autoFillBackground">
+             <bool>false</bool>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>match.svg</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+           <widget class="QLabel" name="h53">
+            <property name="geometry">
+             <rect>
+              <x>30</x>
+              <y>245</y>
+              <width>70</width>
+              <height>12</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>match2.svg</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+           <widget class="QLabel" name="label_h52">
+            <property name="geometry">
+             <rect>
+              <x>25</x>
+              <y>120</y>
+              <width>80</width>
+              <height>25</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color:rgb(200, 0, 0);</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="pushButton_h51">
+            <property name="geometry">
+             <rect>
+              <x>25</x>
+              <y>0</y>
+              <width>80</width>
+              <height>25</height>
+             </rect>
+            </property>
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QAbstractButton {
+                    background: rgba(200,0,0,1);
+}</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <widget class="QLabel" name="h51">
+            <property name="geometry">
+             <rect>
+              <x>30</x>
+              <y>5</y>
+              <width>70</width>
+              <height>12</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>match2.svg</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+           <widget class="QLabel" name="h52">
+            <property name="geometry">
+             <rect>
+              <x>30</x>
+              <y>125</y>
+              <width>70</width>
+              <height>12</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>match2.svg</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="pushButton_h52">
+            <property name="geometry">
+             <rect>
+              <x>25</x>
+              <y>120</y>
+              <width>80</width>
+              <height>25</height>
+             </rect>
+            </property>
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QAbstractButton {
+                    background: rgba(200,0,0,1);
+}</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <widget class="QLabel" name="label_v101">
+            <property name="geometry">
+             <rect>
+              <x>105</x>
+              <y>25</y>
+              <width>25</width>
+              <height>95</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color:rgb(200, 0, 0);</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="pushButton_v92">
+            <property name="geometry">
+             <rect>
+              <x>0</x>
+              <y>145</y>
+              <width>25</width>
+              <height>95</height>
+             </rect>
+            </property>
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QAbstractButton {
+                    background: rgba(200,0,0,1);
+}</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <widget class="QLabel" name="label_v92">
+            <property name="geometry">
+             <rect>
+              <x>0</x>
+              <y>145</y>
+              <width>25</width>
+              <height>95</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color:rgb(200, 0, 0);</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <widget class="QLabel" name="v92">
+            <property name="geometry">
+             <rect>
+              <x>5</x>
+              <y>150</y>
+              <width>12</width>
+              <height>85</height>
+             </rect>
+            </property>
+            <property name="autoFillBackground">
+             <bool>false</bool>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>match.svg</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="pushButton_v102">
+            <property name="geometry">
+             <rect>
+              <x>105</x>
+              <y>145</y>
+              <width>25</width>
+              <height>95</height>
+             </rect>
+            </property>
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QAbstractButton {
+                    background: rgba(200,0,0,1);
+}</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <widget class="QLabel" name="label_v102">
+            <property name="geometry">
+             <rect>
+              <x>105</x>
+              <y>145</y>
+              <width>25</width>
+              <height>95</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color:rgb(200, 0, 0);</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <widget class="QLabel" name="v102">
+            <property name="geometry">
+             <rect>
+              <x>110</x>
+              <y>150</y>
+              <width>12</width>
+              <height>85</height>
+             </rect>
+            </property>
+            <property name="autoFillBackground">
+             <bool>false</bool>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>match.svg</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+           <zorder>label_v91</zorder>
+           <zorder>label_v102</zorder>
+           <zorder>label_v101</zorder>
+           <zorder>label_v92</zorder>
+           <zorder>label_h53</zorder>
+           <zorder>pushButton_h53</zorder>
+           <zorder>pushButton_v91</zorder>
+           <zorder>pushButton_v101</zorder>
+           <zorder>label_h51</zorder>
+           <zorder>v101</zorder>
+           <zorder>h53</zorder>
+           <zorder>label_h52</zorder>
+           <zorder>pushButton_h51</zorder>
+           <zorder>h51</zorder>
+           <zorder>pushButton_h52</zorder>
+           <zorder>pushButton_v92</zorder>
+           <zorder>v92</zorder>
+           <zorder>pushButton_v102</zorder>
+           <zorder>v102</zorder>
+           <zorder>h52</zorder>
+           <zorder>v91</zorder>
+          </widget>
+          <widget class="QWidget" name="n6" native="true">
+           <property name="geometry">
+            <rect>
+             <x>875</x>
+             <y>100</y>
+             <width>131</width>
+             <height>271</height>
+            </rect>
+           </property>
+           <widget class="QLabel" name="v111">
+            <property name="geometry">
+             <rect>
+              <x>5</x>
+              <y>30</y>
+              <width>12</width>
+              <height>85</height>
+             </rect>
+            </property>
+            <property name="autoFillBackground">
+             <bool>false</bool>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>match.svg</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="pushButton_h63">
+            <property name="geometry">
+             <rect>
+              <x>25</x>
+              <y>240</y>
+              <width>80</width>
+              <height>25</height>
+             </rect>
+            </property>
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QAbstractButton {
+                    background: rgba(200,0,0,1);
+}</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="pushButton_v111">
+            <property name="geometry">
+             <rect>
+              <x>0</x>
+              <y>25</y>
+              <width>25</width>
+              <height>95</height>
+             </rect>
+            </property>
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QAbstractButton {
+                    background: rgba(200,0,0,1);
+}</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="pushButton_v121">
+            <property name="geometry">
+             <rect>
+              <x>105</x>
+              <y>25</y>
+              <width>25</width>
+              <height>95</height>
+             </rect>
+            </property>
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QAbstractButton {
+                    background: rgba(200,0,0,1);
+}</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <widget class="QLabel" name="label_h63">
+            <property name="geometry">
+             <rect>
+              <x>25</x>
+              <y>240</y>
+              <width>80</width>
+              <height>25</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color:rgb(200, 0, 0);</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <widget class="QLabel" name="label_v111">
+            <property name="geometry">
+             <rect>
+              <x>0</x>
+              <y>25</y>
+              <width>25</width>
+              <height>95</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color:rgb(200, 0, 0);</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <widget class="QLabel" name="label_h61">
+            <property name="geometry">
+             <rect>
+              <x>25</x>
+              <y>0</y>
+              <width>80</width>
+              <height>25</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color:rgb(200, 0, 0);</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <widget class="QLabel" name="v121">
+            <property name="geometry">
+             <rect>
+              <x>110</x>
+              <y>30</y>
+              <width>12</width>
+              <height>85</height>
+             </rect>
+            </property>
+            <property name="autoFillBackground">
+             <bool>false</bool>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>match.svg</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+           <widget class="QLabel" name="h63">
+            <property name="geometry">
+             <rect>
+              <x>30</x>
+              <y>245</y>
+              <width>70</width>
+              <height>12</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>match2.svg</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+           <widget class="QLabel" name="label_h62">
+            <property name="geometry">
+             <rect>
+              <x>25</x>
+              <y>120</y>
+              <width>80</width>
+              <height>25</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color:rgb(200, 0, 0);</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="pushButton_h61">
+            <property name="geometry">
+             <rect>
+              <x>25</x>
+              <y>0</y>
+              <width>80</width>
+              <height>25</height>
+             </rect>
+            </property>
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QAbstractButton {
+                    background: rgba(200,0,0,1);
+}</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <widget class="QLabel" name="h61">
+            <property name="geometry">
+             <rect>
+              <x>30</x>
+              <y>5</y>
+              <width>70</width>
+              <height>12</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>match2.svg</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+           <widget class="QLabel" name="h62">
+            <property name="geometry">
+             <rect>
+              <x>30</x>
+              <y>125</y>
+              <width>70</width>
+              <height>12</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>match2.svg</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="pushButton_h62">
+            <property name="geometry">
+             <rect>
+              <x>25</x>
+              <y>120</y>
+              <width>80</width>
+              <height>25</height>
+             </rect>
+            </property>
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QAbstractButton {
+                    background: rgba(200,0,0,1);
+}</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <widget class="QLabel" name="label_v121">
+            <property name="geometry">
+             <rect>
+              <x>105</x>
+              <y>25</y>
+              <width>25</width>
+              <height>95</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color:rgb(200, 0, 0);</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="pushButton_v112">
+            <property name="geometry">
+             <rect>
+              <x>0</x>
+              <y>145</y>
+              <width>25</width>
+              <height>95</height>
+             </rect>
+            </property>
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QAbstractButton {
+                    background: rgba(200,0,0,1);
+}</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <widget class="QLabel" name="label_v112">
+            <property name="geometry">
+             <rect>
+              <x>0</x>
+              <y>145</y>
+              <width>25</width>
+              <height>95</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color:rgb(200, 0, 0);</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <widget class="QLabel" name="v112">
+            <property name="geometry">
+             <rect>
+              <x>5</x>
+              <y>150</y>
+              <width>12</width>
+              <height>85</height>
+             </rect>
+            </property>
+            <property name="autoFillBackground">
+             <bool>false</bool>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>match.svg</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="pushButton_v122">
+            <property name="geometry">
+             <rect>
+              <x>105</x>
+              <y>145</y>
+              <width>25</width>
+              <height>95</height>
+             </rect>
+            </property>
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QAbstractButton {
+                    background: rgba(200,0,0,1);
+}</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <widget class="QLabel" name="label_v122">
+            <property name="geometry">
+             <rect>
+              <x>105</x>
+              <y>145</y>
+              <width>25</width>
+              <height>95</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color:rgb(200, 0, 0);</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+           <widget class="QLabel" name="v122">
+            <property name="geometry">
+             <rect>
+              <x>110</x>
+              <y>150</y>
+              <width>12</width>
+              <height>85</height>
+             </rect>
+            </property>
+            <property name="autoFillBackground">
+             <bool>false</bool>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>match.svg</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+           <zorder>label_v122</zorder>
+           <zorder>label_v121</zorder>
+           <zorder>label_v112</zorder>
+           <zorder>label_v111</zorder>
+           <zorder>label_h63</zorder>
+           <zorder>pushButton_h63</zorder>
+           <zorder>pushButton_v121</zorder>
+           <zorder>label_h61</zorder>
+           <zorder>v121</zorder>
+           <zorder>h63</zorder>
+           <zorder>label_h62</zorder>
+           <zorder>pushButton_h61</zorder>
+           <zorder>h61</zorder>
+           <zorder>pushButton_h62</zorder>
+           <zorder>pushButton_v112</zorder>
+           <zorder>v112</zorder>
+           <zorder>pushButton_v122</zorder>
+           <zorder>v122</zorder>
+           <zorder>h62</zorder>
+           <zorder>pushButton_v111</zorder>
+           <zorder>v111</zorder>
+          </widget>
+          <widget class="QLabel" name="label_game">
+           <property name="geometry">
+            <rect>
+             <x>240</x>
+             <y>430</y>
+             <width>541</width>
+             <height>61</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <family>Consolas</family>
+             <pointsize>36</pointsize>
+             <weight>75</weight>
+             <italic>true</italic>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">color:rgb(255, 255, 255);</string>
+           </property>
+           <property name="text">
+            <string>Уровень пройден!</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="pushButton_back">
+           <property name="geometry">
+            <rect>
+             <x>880</x>
+             <y>10</y>
+             <width>120</width>
+             <height>51</height>
+            </rect>
+           </property>
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>0</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+background-color: rgb(239, 204, 87);
+font: 75 24pt &quot;Consolas&quot;;
+border-radius: 20;
+color:rgb(40, 0, 0)
+}
+QPushButton:pressed{
+background-color: rgb(202, 174, 74);
+}</string>
+           </property>
+           <property name="text">
+            <string>назад</string>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="pushButton_hint">
+           <property name="geometry">
+            <rect>
+             <x>730</x>
+             <y>10</y>
+             <width>120</width>
+             <height>51</height>
+            </rect>
+           </property>
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>0</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="font">
+            <font>
+             <family>Consolas</family>
+             <pointsize>14</pointsize>
+             <weight>50</weight>
+             <italic>false</italic>
+             <bold>false</bold>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+background-color: rgb(239, 204, 87);
+	font: 14pt &quot;Consolas&quot;;
+border-radius: 20;
+color:rgb(40, 0, 0)
+}
+QPushButton:pressed{
+background-color: rgb(202, 174, 74);
+}</string>
+           </property>
+           <property name="text">
+            <string>подсказка</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_2">
+           <property name="geometry">
+            <rect>
+             <x>20</x>
+             <y>0</y>
+             <width>411</width>
+             <height>61</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <family>Consolas</family>
+             <pointsize>16</pointsize>
+             <weight>75</weight>
+             <italic>true</italic>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">color:rgb(255, 255, 255);</string>
+           </property>
+           <property name="text">
+            <string>Передвиньте 1 или 2 спички так, 
+чтобы равенство стало верным</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_hint">
+           <property name="geometry">
+            <rect>
+             <x>470</x>
+             <y>10</y>
+             <width>251</width>
+             <height>51</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <family>Consolas</family>
+             <pointsize>18</pointsize>
+             <weight>75</weight>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">color:rgb(255, 255, 255)</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+          <zorder>minus</zorder>
+          <zorder>label_plus</zorder>
+          <zorder>n1</zorder>
+          <zorder>n2</zorder>
+          <zorder>pushButton_plus</zorder>
+          <zorder>plus</zorder>
+          <zorder>n4</zorder>
+          <zorder>n3</zorder>
+          <zorder>eq1</zorder>
+          <zorder>eq2</zorder>
+          <zorder>n5</zorder>
+          <zorder>n6</zorder>
+          <zorder>label_game</zorder>
+          <zorder>pushButton_back</zorder>
+          <zorder>pushButton_hint</zorder>
+          <zorder>label_2</zorder>
+          <zorder>label_hint</zorder>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="page_menu">
+       <layout class="QGridLayout" name="gridLayout_4">
+        <property name="leftMargin">
+         <number>10</number>
+        </property>
+        <property name="topMargin">
+         <number>10</number>
+        </property>
+        <property name="rightMargin">
+         <number>10</number>
+        </property>
+        <property name="bottomMargin">
+         <number>10</number>
+        </property>
+        <property name="spacing">
+         <number>10</number>
+        </property>
+        <item row="2" column="1">
+         <layout class="QGridLayout" name="grid_2">
+          <property name="spacing">
+           <number>20</number>
+          </property>
+          <item row="2" column="0">
+           <widget class="QPushButton" name="pushButton_6">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>100</width>
+              <height>100</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton {
+background-color: rgb(239, 204, 87);
+font: 75 28pt &quot;Comic Sans MS&quot;;
+border-radius: 20;
+color:rgb(40, 0, 0)
+}
+QPushButton:pressed{
+background-color: rgb(202, 174, 74);
+}</string>
+            </property>
+            <property name="text">
+             <string>6</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="1">
+           <widget class="QPushButton" name="pushButton_7">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton {
+background-color: rgb(239, 204, 87);
+font: 75 28pt &quot;Comic Sans MS&quot;;
+border-radius: 20;
+color:rgb(40, 0, 0)
+}
+QPushButton:pressed{
+background-color: rgb(202, 174, 74);
+}</string>
+            </property>
+            <property name="text">
+             <string>7</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QPushButton" name="pushButton_2">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>100</width>
+              <height>100</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton {
+background-color: rgb(239, 204, 87);
+font: 75 28pt &quot;Consolas&quot;;
+border-radius: 20;
+color:rgb(40, 0, 0)
+}
+QPushButton:pressed{
+background-color: rgb(202, 174, 74);
+}</string>
+            </property>
+            <property name="text">
+             <string>2</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="3">
+           <widget class="QPushButton" name="pushButton_9">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton {
+background-color: rgb(239, 204, 87);
+font: 75 28pt &quot;Comic Sans MS&quot;;
+border-radius: 20;
+color:rgb(40, 0, 0)
+}
+QPushButton:pressed{
+background-color: rgb(202, 174, 74);
+}</string>
+            </property>
+            <property name="text">
+             <string>9</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="4">
+           <widget class="QPushButton" name="pushButton_10">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton {
+background-color: rgb(239, 204, 87);
+font: 75 28pt &quot;Comic Sans MS&quot;;
+border-radius: 20;
+color:rgb(40, 0, 0)
+}
+QPushButton:pressed{
+background-color: rgb(202, 174, 74);
+}</string>
+            </property>
+            <property name="text">
+             <string>10</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="4">
+           <widget class="QPushButton" name="pushButton_5">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>100</width>
+              <height>100</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton {
+background-color: rgb(239, 204, 87);
+font: 75 28pt &quot;Consolas&quot;;
+border-radius: 20;
+color:rgb(40, 0, 0)
+}
+QPushButton:pressed{
+background-color: rgb(202, 174, 74);
+}</string>
+            </property>
+            <property name="text">
+             <string>5</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="2">
+           <widget class="QPushButton" name="pushButton_3">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>100</width>
+              <height>100</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton {
+background-color: rgb(239, 204, 87);
+font: 75 28pt &quot;Consolas&quot;;
+border-radius: 20;
+color:rgb(40, 0, 0)
+}
+QPushButton:pressed{
+background-color: rgb(202, 174, 74);
+}</string>
+            </property>
+            <property name="text">
+             <string>3</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="2">
+           <widget class="QPushButton" name="pushButton_8">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton {
+background-color: rgb(239, 204, 87);
+font: 75 28pt &quot;Comic Sans MS&quot;;
+border-radius: 20;
+color:rgb(40, 0, 0)
+}
+QPushButton:pressed{
+background-color: rgb(202, 174, 74);
+}</string>
+            </property>
+            <property name="text">
+             <string>8</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="3">
+           <widget class="QPushButton" name="pushButton_4">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>100</width>
+              <height>100</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton {
+background-color: rgb(239, 204, 87);
+font: 75 28pt &quot;Consolas&quot;;
+border-radius: 20;
+color:rgb(40, 0, 0)
+}
+QPushButton:pressed{
+background-color: rgb(202, 174, 74);
+}</string>
+            </property>
+            <property name="text">
+             <string>4</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="0">
+           <widget class="QPushButton" name="pushButton_1">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>100</width>
+              <height>100</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton {
+background-color: rgb(239, 204, 87);
+font: 75 28pt &quot;Consolas&quot;;
+border-radius: 20;
+color:rgb(40, 0, 0)
+}
+QPushButton:pressed{
+background-color: rgb(202, 174, 74);
+}</string>
+            </property>
+            <property name="text">
+             <string>1</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item row="1" column="1">
+         <widget class="QLabel" name="label">
+          <property name="font">
+           <font>
+            <family>Consolas</family>
+            <pointsize>26</pointsize>
+            <weight>9</weight>
+            <italic>true</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color:rgb(255, 255, 255);
+font: 75 italic 26pt &quot;Consolas&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Выберите уровень</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="1">
+         <spacer name="verticalSpacer_4">
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>20</width>
+            <height>40</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item row="2" column="2">
+         <spacer name="horizontalSpacer_4">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item row="2" column="0">
+         <spacer name="horizontalSpacer_3">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item row="0" column="1">
+         <spacer name="verticalSpacer_3">
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>20</width>
+            <height>40</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
