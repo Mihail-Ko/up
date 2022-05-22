@@ -45,7 +45,7 @@
        <string notr="true"/>
       </property>
       <property name="currentIndex">
-       <number>0</number>
+       <number>1</number>
       </property>
       <widget class="QWidget" name="page_game">
        <layout class="QGridLayout" name="gridLayout_2">
@@ -79,9 +79,9 @@
             <property name="geometry">
              <rect>
               <x>5</x>
-              <y>30</y>
+              <y>20</y>
               <width>12</width>
-              <height>85</height>
+              <height>105</height>
              </rect>
             </property>
             <property name="autoFillBackground">
@@ -239,9 +239,9 @@
             <property name="geometry">
              <rect>
               <x>110</x>
-              <y>30</y>
+              <y>20</y>
               <width>12</width>
-              <height>85</height>
+              <height>105</height>
              </rect>
             </property>
             <property name="autoFillBackground">
@@ -260,9 +260,9 @@
            <widget class="QLabel" name="h13">
             <property name="geometry">
              <rect>
-              <x>30</x>
+              <x>20</x>
               <y>245</y>
-              <width>70</width>
+              <width>90</width>
               <height>12</height>
              </rect>
             </property>
@@ -325,9 +325,9 @@
            <widget class="QLabel" name="h11">
             <property name="geometry">
              <rect>
-              <x>30</x>
+              <x>20</x>
               <y>5</y>
-              <width>70</width>
+              <width>90</width>
               <height>12</height>
              </rect>
             </property>
@@ -344,9 +344,9 @@
            <widget class="QLabel" name="h12">
             <property name="geometry">
              <rect>
-              <x>30</x>
+              <x>20</x>
               <y>125</y>
-              <width>70</width>
+              <width>90</width>
               <height>12</height>
              </rect>
             </property>
@@ -456,9 +456,9 @@
             <property name="geometry">
              <rect>
               <x>5</x>
-              <y>150</y>
+              <y>140</y>
               <width>12</width>
-              <height>85</height>
+              <height>105</height>
              </rect>
             </property>
             <property name="autoFillBackground">
@@ -524,9 +524,9 @@
             <property name="geometry">
              <rect>
               <x>110</x>
-              <y>150</y>
+              <y>140</y>
               <width>12</width>
-              <height>85</height>
+              <height>105</height>
              </rect>
             </property>
             <property name="autoFillBackground">
@@ -543,26 +543,26 @@
             </property>
            </widget>
            <zorder>label_v22</zorder>
-           <zorder>label_v12</zorder>
-           <zorder>label_h13</zorder>
            <zorder>label_v21</zorder>
+           <zorder>label_v12</zorder>
            <zorder>label_v11</zorder>
-           <zorder>pushButton_v11</zorder>
+           <zorder>label_h13</zorder>
+           <zorder>label_h12</zorder>
+           <zorder>label_h11</zorder>
+           <zorder>h11</zorder>
+           <zorder>v22</zorder>
+           <zorder>h13</zorder>
+           <zorder>v12</zorder>
+           <zorder>h12</zorder>
+           <zorder>v21</zorder>
            <zorder>v11</zorder>
+           <zorder>pushButton_v11</zorder>
            <zorder>pushButton_h13</zorder>
            <zorder>pushButton_v21</zorder>
-           <zorder>label_h11</zorder>
-           <zorder>v21</zorder>
-           <zorder>label_h12</zorder>
            <zorder>pushButton_h11</zorder>
-           <zorder>h11</zorder>
            <zorder>pushButton_h12</zorder>
-           <zorder>h12</zorder>
            <zorder>pushButton_v12</zorder>
-           <zorder>v12</zorder>
-           <zorder>h13</zorder>
            <zorder>pushButton_v22</zorder>
-           <zorder>v22</zorder>
           </widget>
           <widget class="QWidget" name="n2" native="true">
            <property name="geometry">
@@ -577,9 +577,9 @@
             <property name="geometry">
              <rect>
               <x>5</x>
-              <y>30</y>
+              <y>20</y>
               <width>12</width>
-              <height>85</height>
+              <height>105</height>
              </rect>
             </property>
             <property name="autoFillBackground">
@@ -737,9 +737,9 @@
             <property name="geometry">
              <rect>
               <x>110</x>
-              <y>30</y>
+              <y>20</y>
               <width>12</width>
-              <height>85</height>
+              <height>105</height>
              </rect>
             </property>
             <property name="autoFillBackground">
@@ -758,9 +758,9 @@
            <widget class="QLabel" name="h23">
             <property name="geometry">
              <rect>
-              <x>30</x>
+              <x>20</x>
               <y>245</y>
-              <width>70</width>
+              <width>90</width>
               <height>12</height>
              </rect>
             </property>
@@ -823,9 +823,9 @@
            <widget class="QLabel" name="h21">
             <property name="geometry">
              <rect>
-              <x>30</x>
+              <x>20</x>
               <y>5</y>
-              <width>70</width>
+              <width>90</width>
               <height>12</height>
              </rect>
             </property>
@@ -842,9 +842,9 @@
            <widget class="QLabel" name="h22">
             <property name="geometry">
              <rect>
-              <x>30</x>
+              <x>20</x>
               <y>125</y>
-              <width>70</width>
+              <width>90</width>
               <height>12</height>
              </rect>
             </property>
@@ -954,9 +954,9 @@
             <property name="geometry">
              <rect>
               <x>5</x>
-              <y>150</y>
+              <y>140</y>
               <width>12</width>
-              <height>85</height>
+              <height>105</height>
              </rect>
             </property>
             <property name="autoFillBackground">
@@ -1022,9 +1022,9 @@
             <property name="geometry">
              <rect>
               <x>110</x>
-              <y>150</y>
+              <y>140</y>
               <width>12</width>
-              <height>85</height>
+              <height>105</height>
              </rect>
             </property>
             <property name="autoFillBackground">
@@ -1040,34 +1040,34 @@
              <bool>true</bool>
             </property>
            </widget>
-           <zorder>label_h23</zorder>
-           <zorder>label_v32</zorder>
-           <zorder>label_v41</zorder>
-           <zorder>pushButton_v32</zorder>
-           <zorder>pushButton_v41</zorder>
            <zorder>label_v42</zorder>
-           <zorder>pushButton_v42</zorder>
+           <zorder>label_v41</zorder>
+           <zorder>label_v32</zorder>
            <zorder>label_v31</zorder>
-           <zorder>pushButton_h23</zorder>
-           <zorder>pushButton_v31</zorder>
-           <zorder>label_h21</zorder>
-           <zorder>h23</zorder>
+           <zorder>label_h23</zorder>
            <zorder>label_h22</zorder>
-           <zorder>pushButton_h21</zorder>
-           <zorder>h21</zorder>
-           <zorder>pushButton_h22</zorder>
-           <zorder>v32</zorder>
+           <zorder>label_h21</zorder>
            <zorder>v42</zorder>
+           <zorder>h23</zorder>
+           <zorder>v32</zorder>
            <zorder>h22</zorder>
            <zorder>v41</zorder>
+           <zorder>h21</zorder>
            <zorder>v31</zorder>
+           <zorder>pushButton_v32</zorder>
+           <zorder>pushButton_v41</zorder>
+           <zorder>pushButton_v42</zorder>
+           <zorder>pushButton_h23</zorder>
+           <zorder>pushButton_v31</zorder>
+           <zorder>pushButton_h21</zorder>
+           <zorder>pushButton_h22</zorder>
           </widget>
           <widget class="QLabel" name="minus">
            <property name="geometry">
             <rect>
-             <x>295</x>
+             <x>290</x>
              <y>225</y>
-             <width>70</width>
+             <width>80</width>
              <height>12</height>
             </rect>
            </property>
@@ -1085,9 +1085,9 @@
            <property name="geometry">
             <rect>
              <x>320</x>
-             <y>195</y>
+             <y>190</y>
              <width>12</width>
-             <height>70</height>
+             <height>80</height>
             </rect>
            </property>
            <property name="autoFillBackground">
@@ -1162,9 +1162,9 @@
             <property name="geometry">
              <rect>
               <x>5</x>
-              <y>30</y>
+              <y>20</y>
               <width>12</width>
-              <height>85</height>
+              <height>105</height>
              </rect>
             </property>
             <property name="autoFillBackground">
@@ -1322,9 +1322,9 @@
             <property name="geometry">
              <rect>
               <x>110</x>
-              <y>30</y>
+              <y>20</y>
               <width>12</width>
-              <height>85</height>
+              <height>105</height>
              </rect>
             </property>
             <property name="autoFillBackground">
@@ -1343,9 +1343,9 @@
            <widget class="QLabel" name="h43">
             <property name="geometry">
              <rect>
-              <x>30</x>
+              <x>20</x>
               <y>245</y>
-              <width>70</width>
+              <width>90</width>
               <height>12</height>
              </rect>
             </property>
@@ -1408,9 +1408,9 @@
            <widget class="QLabel" name="h41">
             <property name="geometry">
              <rect>
-              <x>30</x>
+              <x>20</x>
               <y>5</y>
-              <width>70</width>
+              <width>90</width>
               <height>12</height>
              </rect>
             </property>
@@ -1427,9 +1427,9 @@
            <widget class="QLabel" name="h42">
             <property name="geometry">
              <rect>
-              <x>30</x>
+              <x>20</x>
               <y>125</y>
-              <width>70</width>
+              <width>90</width>
               <height>12</height>
              </rect>
             </property>
@@ -1539,9 +1539,9 @@
             <property name="geometry">
              <rect>
               <x>5</x>
-              <y>150</y>
+              <y>140</y>
               <width>12</width>
-              <height>85</height>
+              <height>105</height>
              </rect>
             </property>
             <property name="autoFillBackground">
@@ -1607,9 +1607,9 @@
             <property name="geometry">
              <rect>
               <x>110</x>
-              <y>150</y>
+              <y>140</y>
               <width>12</width>
-              <height>85</height>
+              <height>105</height>
              </rect>
             </property>
             <property name="autoFillBackground">
@@ -1625,27 +1625,27 @@
              <bool>true</bool>
             </property>
            </widget>
-           <zorder>label_v82</zorder>
            <zorder>label_v72</zorder>
-           <zorder>pushButton_v72</zorder>
+           <zorder>label_h42</zorder>
            <zorder>label_v81</zorder>
-           <zorder>label_v71</zorder>
+           <zorder>label_v82</zorder>
            <zorder>label_h43</zorder>
+           <zorder>label_h41</zorder>
+           <zorder>label_v71</zorder>
+           <zorder>h43</zorder>
+           <zorder>v72</zorder>
+           <zorder>h42</zorder>
+           <zorder>v82</zorder>
+           <zorder>v81</zorder>
+           <zorder>h41</zorder>
+           <zorder>v71</zorder>
+           <zorder>pushButton_v72</zorder>
            <zorder>pushButton_h43</zorder>
            <zorder>pushButton_v71</zorder>
            <zorder>pushButton_v81</zorder>
-           <zorder>label_h41</zorder>
-           <zorder>v81</zorder>
-           <zorder>h43</zorder>
-           <zorder>label_h42</zorder>
            <zorder>pushButton_h41</zorder>
-           <zorder>h41</zorder>
            <zorder>pushButton_h42</zorder>
-           <zorder>v72</zorder>
            <zorder>pushButton_v82</zorder>
-           <zorder>v82</zorder>
-           <zorder>h42</zorder>
-           <zorder>v71</zorder>
           </widget>
           <widget class="QWidget" name="n3" native="true">
            <property name="geometry">
@@ -1660,9 +1660,9 @@
             <property name="geometry">
              <rect>
               <x>5</x>
-              <y>30</y>
+              <y>20</y>
               <width>12</width>
-              <height>85</height>
+              <height>105</height>
              </rect>
             </property>
             <property name="autoFillBackground">
@@ -1820,9 +1820,9 @@
             <property name="geometry">
              <rect>
               <x>110</x>
-              <y>30</y>
+              <y>20</y>
               <width>12</width>
-              <height>85</height>
+              <height>105</height>
              </rect>
             </property>
             <property name="autoFillBackground">
@@ -1841,9 +1841,9 @@
            <widget class="QLabel" name="h33">
             <property name="geometry">
              <rect>
-              <x>30</x>
+              <x>20</x>
               <y>245</y>
-              <width>70</width>
+              <width>90</width>
               <height>12</height>
              </rect>
             </property>
@@ -1906,9 +1906,9 @@
            <widget class="QLabel" name="h31">
             <property name="geometry">
              <rect>
-              <x>30</x>
+              <x>20</x>
               <y>5</y>
-              <width>70</width>
+              <width>90</width>
               <height>12</height>
              </rect>
             </property>
@@ -1925,9 +1925,9 @@
            <widget class="QLabel" name="h32">
             <property name="geometry">
              <rect>
-              <x>30</x>
+              <x>20</x>
               <y>125</y>
-              <width>70</width>
+              <width>90</width>
               <height>12</height>
              </rect>
             </property>
@@ -2037,9 +2037,9 @@
             <property name="geometry">
              <rect>
               <x>5</x>
-              <y>150</y>
+              <y>140</y>
               <width>12</width>
-              <height>85</height>
+              <height>105</height>
              </rect>
             </property>
             <property name="autoFillBackground">
@@ -2105,9 +2105,9 @@
             <property name="geometry">
              <rect>
               <x>110</x>
-              <y>150</y>
+              <y>140</y>
               <width>12</width>
-              <height>85</height>
+              <height>105</height>
              </rect>
             </property>
             <property name="autoFillBackground">
@@ -2123,27 +2123,27 @@
              <bool>true</bool>
             </property>
            </widget>
-           <zorder>label_v62</zorder>
-           <zorder>label_v61</zorder>
+           <zorder>label_h31</zorder>
            <zorder>label_v52</zorder>
-           <zorder>label_v51</zorder>
            <zorder>label_h33</zorder>
+           <zorder>label_h32</zorder>
+           <zorder>label_v61</zorder>
+           <zorder>label_v51</zorder>
+           <zorder>label_v62</zorder>
+           <zorder>h33</zorder>
+           <zorder>v62</zorder>
+           <zorder>v52</zorder>
+           <zorder>v61</zorder>
+           <zorder>h31</zorder>
+           <zorder>h32</zorder>
+           <zorder>v51</zorder>
            <zorder>pushButton_h33</zorder>
            <zorder>pushButton_v51</zorder>
            <zorder>pushButton_v61</zorder>
-           <zorder>label_h31</zorder>
-           <zorder>v61</zorder>
-           <zorder>h33</zorder>
-           <zorder>label_h32</zorder>
            <zorder>pushButton_h31</zorder>
-           <zorder>h31</zorder>
            <zorder>pushButton_h32</zorder>
            <zorder>pushButton_v52</zorder>
-           <zorder>v52</zorder>
            <zorder>pushButton_v62</zorder>
-           <zorder>v62</zorder>
-           <zorder>h32</zorder>
-           <zorder>v51</zorder>
           </widget>
           <widget class="QLabel" name="eq1">
            <property name="geometry">
@@ -2196,9 +2196,9 @@
             <property name="geometry">
              <rect>
               <x>5</x>
-              <y>30</y>
+              <y>20</y>
               <width>12</width>
-              <height>85</height>
+              <height>105</height>
              </rect>
             </property>
             <property name="autoFillBackground">
@@ -2356,9 +2356,9 @@
             <property name="geometry">
              <rect>
               <x>110</x>
-              <y>30</y>
+              <y>20</y>
               <width>12</width>
-              <height>85</height>
+              <height>105</height>
              </rect>
             </property>
             <property name="autoFillBackground">
@@ -2377,9 +2377,9 @@
            <widget class="QLabel" name="h53">
             <property name="geometry">
              <rect>
-              <x>30</x>
+              <x>20</x>
               <y>245</y>
-              <width>70</width>
+              <width>90</width>
               <height>12</height>
              </rect>
             </property>
@@ -2442,9 +2442,9 @@
            <widget class="QLabel" name="h51">
             <property name="geometry">
              <rect>
-              <x>30</x>
+              <x>20</x>
               <y>5</y>
-              <width>70</width>
+              <width>90</width>
               <height>12</height>
              </rect>
             </property>
@@ -2461,9 +2461,9 @@
            <widget class="QLabel" name="h52">
             <property name="geometry">
              <rect>
-              <x>30</x>
+              <x>20</x>
               <y>125</y>
-              <width>70</width>
+              <width>90</width>
               <height>12</height>
              </rect>
             </property>
@@ -2573,9 +2573,9 @@
             <property name="geometry">
              <rect>
               <x>5</x>
-              <y>150</y>
+              <y>140</y>
               <width>12</width>
-              <height>85</height>
+              <height>105</height>
              </rect>
             </property>
             <property name="autoFillBackground">
@@ -2641,9 +2641,9 @@
             <property name="geometry">
              <rect>
               <x>110</x>
-              <y>150</y>
+              <y>140</y>
               <width>12</width>
-              <height>85</height>
+              <height>105</height>
              </rect>
             </property>
             <property name="autoFillBackground">
@@ -2659,27 +2659,27 @@
              <bool>true</bool>
             </property>
            </widget>
-           <zorder>label_v91</zorder>
-           <zorder>label_v102</zorder>
-           <zorder>label_v101</zorder>
            <zorder>label_v92</zorder>
+           <zorder>label_h52</zorder>
+           <zorder>label_h51</zorder>
+           <zorder>label_v101</zorder>
+           <zorder>label_v102</zorder>
            <zorder>label_h53</zorder>
+           <zorder>label_v91</zorder>
+           <zorder>h53</zorder>
+           <zorder>v102</zorder>
+           <zorder>v92</zorder>
+           <zorder>v101</zorder>
+           <zorder>h51</zorder>
+           <zorder>h52</zorder>
+           <zorder>v91</zorder>
            <zorder>pushButton_h53</zorder>
            <zorder>pushButton_v91</zorder>
            <zorder>pushButton_v101</zorder>
-           <zorder>label_h51</zorder>
-           <zorder>v101</zorder>
-           <zorder>h53</zorder>
-           <zorder>label_h52</zorder>
            <zorder>pushButton_h51</zorder>
-           <zorder>h51</zorder>
            <zorder>pushButton_h52</zorder>
            <zorder>pushButton_v92</zorder>
-           <zorder>v92</zorder>
            <zorder>pushButton_v102</zorder>
-           <zorder>v102</zorder>
-           <zorder>h52</zorder>
-           <zorder>v91</zorder>
           </widget>
           <widget class="QWidget" name="n6" native="true">
            <property name="geometry">
@@ -2694,9 +2694,9 @@
             <property name="geometry">
              <rect>
               <x>5</x>
-              <y>30</y>
+              <y>20</y>
               <width>12</width>
-              <height>85</height>
+              <height>105</height>
              </rect>
             </property>
             <property name="autoFillBackground">
@@ -2854,9 +2854,9 @@
             <property name="geometry">
              <rect>
               <x>110</x>
-              <y>30</y>
+              <y>20</y>
               <width>12</width>
-              <height>85</height>
+              <height>105</height>
              </rect>
             </property>
             <property name="autoFillBackground">
@@ -2875,9 +2875,9 @@
            <widget class="QLabel" name="h63">
             <property name="geometry">
              <rect>
-              <x>30</x>
+              <x>20</x>
               <y>245</y>
-              <width>70</width>
+              <width>90</width>
               <height>12</height>
              </rect>
             </property>
@@ -2940,9 +2940,9 @@
            <widget class="QLabel" name="h61">
             <property name="geometry">
              <rect>
-              <x>30</x>
+              <x>20</x>
               <y>5</y>
-              <width>70</width>
+              <width>90</width>
               <height>12</height>
              </rect>
             </property>
@@ -2959,9 +2959,9 @@
            <widget class="QLabel" name="h62">
             <property name="geometry">
              <rect>
-              <x>30</x>
+              <x>20</x>
               <y>125</y>
-              <width>70</width>
+              <width>90</width>
               <height>12</height>
              </rect>
             </property>
@@ -3071,9 +3071,9 @@
             <property name="geometry">
              <rect>
               <x>5</x>
-              <y>150</y>
+              <y>140</y>
               <width>12</width>
-              <height>85</height>
+              <height>105</height>
              </rect>
             </property>
             <property name="autoFillBackground">
@@ -3139,9 +3139,9 @@
             <property name="geometry">
              <rect>
               <x>110</x>
-              <y>150</y>
+              <y>140</y>
               <width>12</width>
-              <height>85</height>
+              <height>105</height>
              </rect>
             </property>
             <property name="autoFillBackground">
@@ -3157,27 +3157,27 @@
              <bool>true</bool>
             </property>
            </widget>
-           <zorder>label_v122</zorder>
            <zorder>label_v121</zorder>
-           <zorder>label_v112</zorder>
            <zorder>label_v111</zorder>
+           <zorder>label_h62</zorder>
+           <zorder>label_v112</zorder>
+           <zorder>label_h61</zorder>
            <zorder>label_h63</zorder>
+           <zorder>label_v122</zorder>
+           <zorder>h63</zorder>
+           <zorder>v112</zorder>
+           <zorder>h62</zorder>
+           <zorder>v122</zorder>
+           <zorder>v121</zorder>
+           <zorder>h61</zorder>
+           <zorder>v111</zorder>
            <zorder>pushButton_h63</zorder>
            <zorder>pushButton_v121</zorder>
-           <zorder>label_h61</zorder>
-           <zorder>v121</zorder>
-           <zorder>h63</zorder>
-           <zorder>label_h62</zorder>
            <zorder>pushButton_h61</zorder>
-           <zorder>h61</zorder>
            <zorder>pushButton_h62</zorder>
            <zorder>pushButton_v112</zorder>
-           <zorder>v112</zorder>
            <zorder>pushButton_v122</zorder>
-           <zorder>v122</zorder>
-           <zorder>h62</zorder>
            <zorder>pushButton_v111</zorder>
-           <zorder>v111</zorder>
           </widget>
           <widget class="QLabel" name="label_game">
            <property name="geometry">
@@ -3341,12 +3341,12 @@ background-color: rgb(202, 174, 74);
             <set>Qt::AlignCenter</set>
            </property>
           </widget>
-          <zorder>minus</zorder>
           <zorder>label_plus</zorder>
+          <zorder>plus</zorder>
+          <zorder>minus</zorder>
           <zorder>n1</zorder>
           <zorder>n2</zorder>
           <zorder>pushButton_plus</zorder>
-          <zorder>plus</zorder>
           <zorder>n4</zorder>
           <zorder>n3</zorder>
           <zorder>eq1</zorder>

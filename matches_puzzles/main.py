@@ -6,6 +6,7 @@ from gui import Ui_MainWindow
 
 class MainWindow(QMainWindow, Ui_MainWindow):
     # operation = 'minus'
+    #0 и 1 в массивах означают наличие спичек в определенных местах. v - вертикальное расположение, h - горизонтальное
     v = [[0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0]]
     h = [[0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0], [0, 0, 0]]
     win = False
@@ -90,6 +91,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         # hint show
         if self.hint:
             self.label_hint.show()
+
             self.label_hint.setText('')
         else:
             self.label_hint.hide()
@@ -101,37 +103,37 @@ class MainWindow(QMainWindow, Ui_MainWindow):
             getattr(self, 'label_h%s' % int(str(self.selection[1] + 1) + str(self.selection[2] + 1))).show()
 
     def equals(self):
-        # 01 matrix to numbers
+        # перевод массивов 0 и 1 в цифры. Далее - проверка равенства
         for i in range(6):
-            if (self.v[i][0] == 1) and (self.v[i][1] == 1) and (self.v[i + 1][0] == 1) and (self.v[i + 1][1] == 1) and (
+            if (self.v[i*2][0] == 1) and (self.v[i*2][1] == 1) and (self.v[i*2 + 1][0] == 1) and (self.v[i*2 + 1][1] == 1) and (
                     self.h[i][0] == 1) and (self.h[i][1] == 0) and (self.h[i][2] == 1):
                 self.num[i] = 0
-            elif (self.v[i][0] == 0) and (self.v[i][1] == 0) and (self.v[i + 1][0] == 1) and (
-                    self.v[i + 1][1] == 1) and (self.h[i][0] == 0) and (self.h[i][1] == 0) and (self.h[i][2] == 0):
+            elif (self.v[i*2][0] == 0) and (self.v[i*2][1] == 0) and (self.v[i*2 + 1][0] == 1) and (
+                    self.v[i*2 + 1][1] == 1) and (self.h[i][0] == 0) and (self.h[i][1] == 0) and (self.h[i][2] == 0):
                 self.num[i] = 1
-            elif (self.v[i][0] == 0) and (self.v[i][1] == 1) and (self.v[i + 1][0] == 1) and (
-                    self.v[i + 1][1] == 0) and (self.h[i][0] == 1) and (self.h[i][1] == 1) and (self.h[i][2] == 1):
+            elif (self.v[i*2][0] == 0) and (self.v[i*2][1] == 1) and (self.v[i*2 + 1][0] == 1) and (
+                    self.v[i*2 + 1][1] == 0) and (self.h[i][0] == 1) and (self.h[i][1] == 1) and (self.h[i][2] == 1):
                 self.num[i] = 2
-            elif (self.v[i][0] == 0) and (self.v[i][1] == 0) and (self.v[i + 1][0] == 1) and (
-                    self.v[i + 1][1] == 1) and (self.h[i][0] == 1) and (self.h[i][1] == 1) and (self.h[i][2] == 1):
+            elif (self.v[i*2][0] == 0) and (self.v[i*2][1] == 0) and (self.v[i*2 + 1][0] == 1) and (
+                    self.v[i*2 + 1][1] == 1) and (self.h[i][0] == 1) and (self.h[i][1] == 1) and (self.h[i][2] == 1):
                 self.num[i] = 3
-            elif (self.v[i][0] == 1) and (self.v[i][1] == 0) and (self.v[i + 1][0] == 1) and (
-                    self.v[i + 1][1] == 1) and (self.h[i][0] == 0) and (self.h[i][1] == 1) and (self.h[i][2] == 0):
+            elif (self.v[i*2][0] == 1) and (self.v[i*2][1] == 0) and (self.v[i*2 + 1][0] == 1) and (
+                    self.v[i*2 + 1][1] == 1) and (self.h[i][0] == 0) and (self.h[i][1] == 1) and (self.h[i][2] == 0):
                 self.num[i] = 4
-            elif (self.v[i][0] == 1) and (self.v[i][1] == 0) and (self.v[i + 1][0] == 0) and (
-                    self.v[i + 1][1] == 1) and (self.h[i][0] == 1) and (self.h[i][1] == 1) and (self.h[i][2] == 1):
+            elif (self.v[i*2][0] == 1) and (self.v[i*2][1] == 0) and (self.v[i*2 + 1][0] == 0) and (
+                    self.v[i*2 + 1][1] == 1) and (self.h[2][0] == 1) and (self.h[i][1] == 1) and (self.h[i][2] == 1):
                 self.num[i] = 5
-            elif (self.v[i][0] == 1) and (self.v[i][1] == 1) and (self.v[i + 1][0] == 0) and (
-                    self.v[i + 1][1] == 1) and (self.h[i][0] == 1) and (self.h[i][1] == 1) and (self.h[i][2] == 1):
+            elif (self.v[i*2][0] == 1) and (self.v[i*2][1] == 1) and (self.v[i*2 + 1][0] == 0) and (
+                    self.v[i*2 + 1][1] == 1) and (self.h[i][0] == 1) and (self.h[i][1] == 1) and (self.h[i][2] == 1):
                 self.num[i] = 6
-            elif (self.v[i][0] == 0) and (self.v[i][1] == 0) and (self.v[i + 1][0] == 1) and (
-                    self.v[i + 1][1] == 1) and (self.h[i][0] == 1) and (self.h[i][1] == 0) and (self.h[i][2] == 0):
+            elif (self.v[i*2][0] == 0) and (self.v[i*2][1] == 0) and (self.v[i*2 + 1][0] == 1) and (
+                    self.v[i*2 + 1][1] == 1) and (self.h[i][0] == 1) and (self.h[i][1] == 0) and (self.h[i][2] == 0):
                 self.num[i] = 7
-            elif (self.v[i][0] == 1) and (self.v[i][1] == 1) and (self.v[i + 1][0] == 1) and (
-                    self.v[i + 1][1] == 1) and (self.h[i][0] == 1) and (self.h[i][1] == 1) and (self.h[i][2] == 1):
+            elif (self.v[i*2][0] == 1) and (self.v[i*2][1] == 1) and (self.v[i*2 + 1][0] == 1) and (
+                    self.v[i*2 + 1][1] == 1) and (self.h[i][0] == 1) and (self.h[i][1] == 1) and (self.h[i][2] == 1):
                 self.num[i] = 8
-            elif (self.v[i][0] == 1) and (self.v[i][1] == 0) and (self.v[i + 1][0] == 1) and (
-                    self.v[i + 1][1] == 1) and (self.h[i][0] == 1) and (self.h[i][1] == 1) and (self.h[i][2] == 1):
+            elif (self.v[i*2][0] == 1) and (self.v[i*2][1] == 0) and (self.v[i*2 + 1][0] == 1) and (
+                    self.v[i*2 + 1][1] == 1) and (self.h[i][0] == 1) and (self.h[i][1] == 1) and (self.h[i][2] == 1):
                 self.num[i] = 9
             else:
                 return False
@@ -157,9 +159,9 @@ class MainWindow(QMainWindow, Ui_MainWindow):
                 getattr(self, str(select[0]))[select[1]][select[2]] = 1
                 self.selection = ['', -1, -1]
 
-        self.draw()
         if self.equals():
             self.win = True
+        self.draw()
 
     def hint_f(self):
         self.hint = True
