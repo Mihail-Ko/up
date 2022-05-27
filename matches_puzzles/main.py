@@ -199,12 +199,12 @@ class MainWindow(QMainWindow, Ui_MainWindow):
                 self.operation = 1
                 getattr(self, str(select[0]))[select[1]][select[2]] = 1
                 self.selection = ['', -1, -1]
-            elif select[0] == '+':
+            elif (select[0] == '+') and (self.operation == 1):
                 self.operation = 2
                 getattr(self, str(self.selection[0]))[self.selection[1]][self.selection[2]] = 0
                 self.selection = ['', -1, -1]
 
-            elif (self.selection[1] != -1) and (self.selection[2] != -1):
+            elif (self.selection[1] != -1) and (self.selection[2] != -1) and (select[0] != '+'):
                 # если старая позиция = 1 и новая = 0, то в h или v старая позиция = 0, а новая = 1. затем обнуление выделения
                 if (getattr(self, str(self.selection[0]))[self.selection[1]][self.selection[2]] == 1) and (
                         getattr(self, str(select[0]))[select[1]][select[2]] == 0):
