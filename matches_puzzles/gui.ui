@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1063</width>
+    <width>1125</width>
     <height>577</height>
    </rect>
   </property>
@@ -190,9 +190,9 @@
            <widget class="QLabel" name="label_h13">
             <property name="geometry">
              <rect>
-              <x>25</x>
+              <x>20</x>
               <y>240</y>
-              <width>80</width>
+              <width>90</width>
               <height>25</height>
              </rect>
             </property>
@@ -207,9 +207,9 @@
             <property name="geometry">
              <rect>
               <x>0</x>
-              <y>25</y>
+              <y>20</y>
               <width>25</width>
-              <height>95</height>
+              <height>105</height>
              </rect>
             </property>
             <property name="styleSheet">
@@ -222,9 +222,9 @@
            <widget class="QLabel" name="label_h11">
             <property name="geometry">
              <rect>
-              <x>25</x>
+              <x>20</x>
               <y>0</y>
-              <width>80</width>
+              <width>90</width>
               <height>25</height>
              </rect>
             </property>
@@ -279,9 +279,9 @@
            <widget class="QLabel" name="label_h12">
             <property name="geometry">
              <rect>
-              <x>25</x>
+              <x>20</x>
               <y>120</y>
-              <width>80</width>
+              <width>90</width>
               <height>25</height>
              </rect>
             </property>
@@ -394,9 +394,9 @@
             <property name="geometry">
              <rect>
               <x>105</x>
-              <y>25</y>
+              <y>20</y>
               <width>25</width>
-              <height>95</height>
+              <height>105</height>
              </rect>
             </property>
             <property name="styleSheet">
@@ -440,9 +440,9 @@
             <property name="geometry">
              <rect>
               <x>0</x>
-              <y>145</y>
+              <y>140</y>
               <width>25</width>
-              <height>95</height>
+              <height>105</height>
              </rect>
             </property>
             <property name="styleSheet">
@@ -508,9 +508,9 @@
             <property name="geometry">
              <rect>
               <x>105</x>
-              <y>145</y>
+              <y>140</y>
               <width>25</width>
-              <height>95</height>
+              <height>105</height>
              </rect>
             </property>
             <property name="styleSheet">
@@ -688,9 +688,9 @@
            <widget class="QLabel" name="label_h23">
             <property name="geometry">
              <rect>
-              <x>25</x>
+              <x>20</x>
               <y>240</y>
-              <width>80</width>
+              <width>90</width>
               <height>25</height>
              </rect>
             </property>
@@ -705,9 +705,9 @@
             <property name="geometry">
              <rect>
               <x>0</x>
-              <y>25</y>
+              <y>20</y>
               <width>25</width>
-              <height>95</height>
+              <height>105</height>
              </rect>
             </property>
             <property name="styleSheet">
@@ -720,9 +720,9 @@
            <widget class="QLabel" name="label_h21">
             <property name="geometry">
              <rect>
-              <x>25</x>
+              <x>20</x>
               <y>0</y>
-              <width>80</width>
+              <width>90</width>
               <height>25</height>
              </rect>
             </property>
@@ -777,9 +777,9 @@
            <widget class="QLabel" name="label_h22">
             <property name="geometry">
              <rect>
-              <x>25</x>
+              <x>20</x>
               <y>120</y>
-              <width>80</width>
+              <width>90</width>
               <height>25</height>
              </rect>
             </property>
@@ -892,9 +892,9 @@
             <property name="geometry">
              <rect>
               <x>105</x>
-              <y>25</y>
+              <y>20</y>
               <width>25</width>
-              <height>95</height>
+              <height>105</height>
              </rect>
             </property>
             <property name="styleSheet">
@@ -938,9 +938,9 @@
             <property name="geometry">
              <rect>
               <x>0</x>
-              <y>145</y>
+              <y>140</y>
               <width>25</width>
-              <height>95</height>
+              <height>105</height>
              </rect>
             </property>
             <property name="styleSheet">
@@ -1006,9 +1006,9 @@
             <property name="geometry">
              <rect>
               <x>105</x>
-              <y>145</y>
+              <y>140</y>
               <width>25</width>
-              <height>95</height>
+              <height>105</height>
              </rect>
             </property>
             <property name="styleSheet">
@@ -1273,9 +1273,9 @@
            <widget class="QLabel" name="label_h43">
             <property name="geometry">
              <rect>
-              <x>25</x>
+              <x>20</x>
               <y>240</y>
-              <width>80</width>
+              <width>90</width>
               <height>25</height>
              </rect>
             </property>
@@ -1290,9 +1290,9 @@
             <property name="geometry">
              <rect>
               <x>0</x>
-              <y>25</y>
+              <y>20</y>
               <width>25</width>
-              <height>95</height>
+              <height>105</height>
              </rect>
             </property>
             <property name="styleSheet">
@@ -1305,9 +1305,9 @@
            <widget class="QLabel" name="label_h41">
             <property name="geometry">
              <rect>
-              <x>25</x>
+              <x>20</x>
               <y>0</y>
-              <width>80</width>
+              <width>90</width>
               <height>25</height>
              </rect>
             </property>
@@ -1362,9 +1362,9 @@
            <widget class="QLabel" name="label_h42">
             <property name="geometry">
              <rect>
-              <x>25</x>
+              <x>20</x>
               <y>120</y>
-              <width>80</width>
+              <width>90</width>
               <height>25</height>
              </rect>
             </property>
@@ -1477,9 +1477,9 @@
             <property name="geometry">
              <rect>
               <x>105</x>
-              <y>25</y>
+              <y>20</y>
               <width>25</width>
-              <height>95</height>
+              <height>105</height>
              </rect>
             </property>
             <property name="styleSheet">
@@ -1523,9 +1523,9 @@
             <property name="geometry">
              <rect>
               <x>0</x>
-              <y>145</y>
+              <y>140</y>
               <width>25</width>
-              <height>95</height>
+              <height>105</height>
              </rect>
             </property>
             <property name="styleSheet">
@@ -1591,9 +1591,9 @@
             <property name="geometry">
              <rect>
               <x>105</x>
-              <y>145</y>
+              <y>140</y>
               <width>25</width>
-              <height>95</height>
+              <height>105</height>
              </rect>
             </property>
             <property name="styleSheet">
@@ -1771,9 +1771,9 @@
            <widget class="QLabel" name="label_h33">
             <property name="geometry">
              <rect>
-              <x>25</x>
+              <x>20</x>
               <y>240</y>
-              <width>80</width>
+              <width>90</width>
               <height>25</height>
              </rect>
             </property>
@@ -1788,9 +1788,9 @@
             <property name="geometry">
              <rect>
               <x>0</x>
-              <y>25</y>
+              <y>20</y>
               <width>25</width>
-              <height>95</height>
+              <height>105</height>
              </rect>
             </property>
             <property name="styleSheet">
@@ -1803,9 +1803,9 @@
            <widget class="QLabel" name="label_h31">
             <property name="geometry">
              <rect>
-              <x>25</x>
+              <x>20</x>
               <y>0</y>
-              <width>80</width>
+              <width>90</width>
               <height>25</height>
              </rect>
             </property>
@@ -1860,9 +1860,9 @@
            <widget class="QLabel" name="label_h32">
             <property name="geometry">
              <rect>
-              <x>25</x>
+              <x>20</x>
               <y>120</y>
-              <width>80</width>
+              <width>90</width>
               <height>25</height>
              </rect>
             </property>
@@ -1975,9 +1975,9 @@
             <property name="geometry">
              <rect>
               <x>105</x>
-              <y>25</y>
+              <y>20</y>
               <width>25</width>
-              <height>95</height>
+              <height>105</height>
              </rect>
             </property>
             <property name="styleSheet">
@@ -2021,9 +2021,9 @@
             <property name="geometry">
              <rect>
               <x>0</x>
-              <y>145</y>
+              <y>140</y>
               <width>25</width>
-              <height>95</height>
+              <height>105</height>
              </rect>
             </property>
             <property name="styleSheet">
@@ -2089,9 +2089,9 @@
             <property name="geometry">
              <rect>
               <x>105</x>
-              <y>145</y>
+              <y>140</y>
               <width>25</width>
-              <height>95</height>
+              <height>105</height>
              </rect>
             </property>
             <property name="styleSheet">
@@ -2307,9 +2307,9 @@
            <widget class="QLabel" name="label_h53">
             <property name="geometry">
              <rect>
-              <x>25</x>
+              <x>20</x>
               <y>240</y>
-              <width>80</width>
+              <width>90</width>
               <height>25</height>
              </rect>
             </property>
@@ -2324,9 +2324,9 @@
             <property name="geometry">
              <rect>
               <x>0</x>
-              <y>25</y>
+              <y>20</y>
               <width>25</width>
-              <height>95</height>
+              <height>105</height>
              </rect>
             </property>
             <property name="styleSheet">
@@ -2339,9 +2339,9 @@
            <widget class="QLabel" name="label_h51">
             <property name="geometry">
              <rect>
-              <x>25</x>
+              <x>20</x>
               <y>0</y>
-              <width>80</width>
+              <width>90</width>
               <height>25</height>
              </rect>
             </property>
@@ -2396,9 +2396,9 @@
            <widget class="QLabel" name="label_h52">
             <property name="geometry">
              <rect>
-              <x>25</x>
+              <x>20</x>
               <y>120</y>
-              <width>80</width>
+              <width>90</width>
               <height>25</height>
              </rect>
             </property>
@@ -2511,9 +2511,9 @@
             <property name="geometry">
              <rect>
               <x>105</x>
-              <y>25</y>
+              <y>20</y>
               <width>25</width>
-              <height>95</height>
+              <height>105</height>
              </rect>
             </property>
             <property name="styleSheet">
@@ -2557,9 +2557,9 @@
             <property name="geometry">
              <rect>
               <x>0</x>
-              <y>145</y>
+              <y>140</y>
               <width>25</width>
-              <height>95</height>
+              <height>105</height>
              </rect>
             </property>
             <property name="styleSheet">
@@ -2625,9 +2625,9 @@
             <property name="geometry">
              <rect>
               <x>105</x>
-              <y>145</y>
+              <y>140</y>
               <width>25</width>
-              <height>95</height>
+              <height>105</height>
              </rect>
             </property>
             <property name="styleSheet">
@@ -2805,9 +2805,9 @@
            <widget class="QLabel" name="label_h63">
             <property name="geometry">
              <rect>
-              <x>25</x>
+              <x>20</x>
               <y>240</y>
-              <width>80</width>
+              <width>90</width>
               <height>25</height>
              </rect>
             </property>
@@ -2822,9 +2822,9 @@
             <property name="geometry">
              <rect>
               <x>0</x>
-              <y>25</y>
+              <y>20</y>
               <width>25</width>
-              <height>95</height>
+              <height>105</height>
              </rect>
             </property>
             <property name="styleSheet">
@@ -2837,9 +2837,9 @@
            <widget class="QLabel" name="label_h61">
             <property name="geometry">
              <rect>
-              <x>25</x>
+              <x>20</x>
               <y>0</y>
-              <width>80</width>
+              <width>90</width>
               <height>25</height>
              </rect>
             </property>
@@ -2894,9 +2894,9 @@
            <widget class="QLabel" name="label_h62">
             <property name="geometry">
              <rect>
-              <x>25</x>
+              <x>20</x>
               <y>120</y>
-              <width>80</width>
+              <width>90</width>
               <height>25</height>
              </rect>
             </property>
@@ -3009,9 +3009,9 @@
             <property name="geometry">
              <rect>
               <x>105</x>
-              <y>25</y>
+              <y>20</y>
               <width>25</width>
-              <height>95</height>
+              <height>105</height>
              </rect>
             </property>
             <property name="styleSheet">
@@ -3055,9 +3055,9 @@
             <property name="geometry">
              <rect>
               <x>0</x>
-              <y>145</y>
+              <y>140</y>
               <width>25</width>
-              <height>95</height>
+              <height>105</height>
              </rect>
             </property>
             <property name="styleSheet">
@@ -3123,9 +3123,9 @@
             <property name="geometry">
              <rect>
               <x>105</x>
-              <y>145</y>
+              <y>140</y>
               <width>25</width>
-              <height>95</height>
+              <height>105</height>
              </rect>
             </property>
             <property name="styleSheet">
