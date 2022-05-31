@@ -1,5 +1,4 @@
 from PyQt5.QtWidgets import QApplication, QMainWindow
-from PyQt5 import QtCore, QtGui, QtWidgets
 import sys
 from gui import Ui_MainWindow
 
@@ -94,7 +93,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
             elif self.level == 2:
                 self.label_hint.setText('10+24=34')
             elif self.level == 3:
-                self.label_hint.setText('37+16=53')
+                self.label_hint.setText('93-80=13')
             elif self.level == 4:
                 self.label_hint.setText('98-88=10')
             elif self.level == 5:
@@ -106,7 +105,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
             elif self.level == 8:
                 self.label_hint.setText('13+28=41')
             elif self.level == 9:
-                self.label_hint.setText('25-13=12')
+                self.label_hint.setText('28+16=44')
             elif self.level == 10:
                 self.label_hint.setText('99-81=18')
         else:
@@ -174,7 +173,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         if self.operation != self.operation_start:
             if max(self.operation, self.operation_start) - 1 == min(self.operation, self.operation_start):
                 dif += 1
-        print(dif)
+
         if dif <= 4:
             return True
 
@@ -238,11 +237,11 @@ class MainWindow(QMainWindow, Ui_MainWindow):
             self.h_start = [[0, 0, 0], [1, 1, 1], [1, 1, 1], [0, 1, 0], [1, 1, 1], [0, 1, 0]]
             self.operation = 2
         elif start_level == 3:
-            self.v = [[0, 0], [1, 1], [0, 0], [1, 1], [0, 0], [1, 1], [1, 1], [0, 1], [1, 1], [1, 1], [0, 0], [1, 1]]
-            self.h = [[1, 1, 1], [1, 0, 0], [0, 0, 0], [1, 1, 1], [1, 1, 1], [1, 0, 0]]
-            self.v_start = [[0, 0], [1, 1], [0, 0], [1, 1], [0, 0], [1, 1], [1, 1], [0, 1], [1, 1], [1, 1], [0, 0], [1, 1]]
-            self.h_start = [[1, 1, 1], [1, 0, 0], [0, 0, 0], [1, 1, 1], [1, 1, 1], [1, 0, 0]]
-            self.operation = 2
+            self.v = [[1, 0], [1, 1], [0, 0], [1, 1], [1, 1], [1, 1], [1, 0], [0, 1], [0, 0], [1, 1], [0, 0], [1, 1]]
+            self.h = [[1, 1, 1], [1, 1, 1], [1, 1, 1], [1, 1, 1], [1, 0, 0], [1, 1, 1]]
+            self.v_start = [[1, 0], [1, 1], [0, 0], [1, 1], [1, 1], [1, 1], [1, 0], [0, 1], [0, 0], [1, 1], [0, 0], [1, 1]]
+            self.h_start = [[1, 1, 1], [1, 1, 1], [1, 1, 1], [1, 1, 1], [1, 0, 0], [1, 1, 1]]
+            self.operation = 1
         elif start_level == 4:
             self.v = [[1, 0], [1, 1], [1, 1], [1, 1], [1, 1], [0, 1], [1, 1], [1, 1], [0, 0], [1, 1], [1, 1], [1, 1]]
             self.h = [[1, 1, 1], [1, 1, 1], [1, 1, 1], [1, 1, 1], [1, 0, 0], [1, 0, 1]]
@@ -274,10 +273,10 @@ class MainWindow(QMainWindow, Ui_MainWindow):
             self.h_start = [[0, 0, 0], [1, 1, 1], [1, 1, 1], [1, 1, 1], [1, 1, 1], [0, 0, 0]]
             self.operation = 2
         elif start_level == 9:
-            self.v = [[0, 1], [1, 0], [1, 0], [0, 1], [0, 0], [1, 1], [0, 0], [1, 1], [0, 0], [1, 1], [1, 0], [0, 1]]
-            self.h = [[1, 1, 1], [1, 1, 1], [0, 0, 0], [1, 1, 1], [0, 0, 0], [1, 1, 1]]
-            self.v_start = [[0, 1], [1, 0], [1, 0], [0, 1], [0, 0], [1, 1], [0, 0], [1, 1], [0, 0], [1, 1], [1, 0], [0, 1]]
-            self.h_start = [[1, 1, 1], [1, 1, 1], [0, 0, 0], [1, 1, 1], [0, 0, 0], [1, 1, 1]]
+            self.v = [[0, 1], [1, 0], [1, 0], [1, 1], [0, 0], [1, 1], [1, 1], [0, 1], [1, 0], [1, 1], [1, 0], [1, 1]]
+            self.h = [[1, 1, 1], [1, 1, 1], [0, 0, 0], [1, 1, 1], [1, 1, 1], [0, 1, 0]]
+            self.v_start = [[0, 1], [1, 0], [1, 0], [1, 1], [0, 0], [1, 1], [1, 1], [0, 1], [1, 0], [1, 1], [1, 0], [1, 1]]
+            self.h_start = [[1, 1, 1], [1, 1, 1], [0, 0, 0], [1, 1, 1], [1, 1, 1], [0, 1, 0]]
             self.operation = 1
         elif start_level == 10:
             self.v = [[1, 0], [0, 1], [1, 0], [1, 1], [1, 1], [1, 1], [0, 0], [1, 1], [0, 0], [1, 1], [1, 1], [1, 1]]
